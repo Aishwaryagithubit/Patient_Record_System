@@ -8,7 +8,6 @@ client = MongoClient("mongodb+srv://aishwaryasah25:CYySPKdYJBgmdoWQ@cluster0.sis
 db = client["Medicaldb"]      # Database
 patients = db["patients"]     # Collection
 
-
 # FUNCTIONS
 
 def add_patient():
@@ -163,3 +162,4 @@ while True:
 
 
    
+
